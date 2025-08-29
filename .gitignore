@@ -1,0 +1,67 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# ======================================
+# Django / DRF
+# ======================================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+.env
+.env.local
+.env.*.local
+
+# ======================================
+# VS Code / Editors
+# ======================================
+.vscode/
+.idea/
+*.swp
+*~
+
+# ======================================
+# Virtual Environments
+# ======================================
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+
+# ======================================
+# Migrations (optional - keep if you want version control)
+# Comment this out if you DO want to track migrations
+# ======================================
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# ======================================
+# Tests / Coverage
+# ======================================
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+.cache/
+
+# ======================================
+# System Files
+# ======================================
+.DS_Store
+Thumbs.db
