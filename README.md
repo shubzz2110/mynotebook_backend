@@ -168,4 +168,8 @@ gunicorn mynotebook_backend.wsgi:application --bind 0.0.0.0:8000
 
 ## 📜 License  
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**. 
+
+### 👨‍💻 Author
+Developed by **Shubham Homkar**  
+GitHub: shubzz2110 (https://github.com/shubzz2110)
